@@ -10,11 +10,11 @@
 
     <?php
 
-        $paragrafo = $_GET["paragrafo"] ;
+        $paragrafo = $_GET["paragrafo"];
         $parola = $_GET["parolaX"];
         $lunghezzaParagfrafo = strlen($paragrafo) ;
 
-        $paragrafox = str_replace (
+        $paragrafox = str_ireplace (
             $parola ,
             "***" ,
             $paragrafo ,
